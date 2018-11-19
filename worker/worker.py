@@ -5,7 +5,7 @@ from random import randint
 
 
 if __name__ == '__main__':
-    print('Iniciando worker')
+    print('Aguardando mensagens...')
     r = redis.Redis(host='queue', port=6379, db=0)
 
     while True:
